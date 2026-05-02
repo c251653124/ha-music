@@ -1,0 +1,14 @@
+name = "ncm-api-enhanced"
+compatibility_date = "2024-01-01"
+
+[vars]
+CORS_ALLOW_ORIGIN = "*"
+ENABLE_GENERAL_UNBLOCK = "true"
+ENABLE_FLAC = "true"
+ENABLE_PROXY = "false"
+
+[pages]
+entry-point = "."
+
+[[pages.functions]]
+source = "functions/**/*.js"

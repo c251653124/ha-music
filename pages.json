@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "@cloudflare/pages-functions@1.12.1"
+    }
+  },
+  "build": {
+    "command": "npm install && npm run build",
+    "publishDir": ".",
+    "buildCommand": "npm run build"
+  }
+}
